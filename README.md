@@ -1,5 +1,5 @@
 # Content for README.md
-readme_content = """
+
 # AI Enhanced Engagement Tracker
 
 ## Overview
@@ -113,3 +113,15 @@ Face recognition identifies or verifies individuals by analyzing facial features
 - **Automated Attendance:** Tracks and logs attendance in real-time.  
 - **Attention Analysis:** Quantifies and logs attention metrics in Excel files.  
 - **Landmark Detection:** Identifies and tracks key facial features.  
+
+
+#### A) Image Concatenation
+Resizes two images to a specified pixel range and merges them both horizontally and vertically, displaying the results in separate windows.
+- **Input**:
+  <br>
+   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/car-1.webp" alt="concat" width="400" style="margin-right: 20"> <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/car-2.jpeg" alt="concat" width="400" style="margin-right: 20">
+
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/vertical_merge.jpg" alt="concat" > <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/horizontal_merge.jpg" alt="concat" >
+
