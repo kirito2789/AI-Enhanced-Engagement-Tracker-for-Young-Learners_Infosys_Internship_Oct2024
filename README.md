@@ -109,16 +109,7 @@ Face recognition identifies or verifies individuals by analyzing facial features
 - **Real-Time Recognition:** Identifies and labels Barack Obama in video feeds.  
 - **Attention Scoring:** Analyzes attentiveness based on head pose and logs the data.  
 
-##### **Face Recognition: Shiva Goud**
+##### **Face Recognition: Dinesh Datta**
 - **Automated Attendance:** Tracks and logs attendance in real-time.  
 - **Attention Analysis:** Quantifies and logs attention metrics in Excel files.  
 - **Landmark Detection:** Identifies and tracks key facial features.  
-
----
-
-## Installation
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-repo/ai-engagement-tracker.git
-   cd ai-engagement-tracker
