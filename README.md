@@ -125,3 +125,177 @@ Resizes two images to a specified pixel range and merges them both horizontally 
   <br>
   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/vertical_merge.jpg" alt="concat" > <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/horizontal_merge.jpg" alt="concat" >
 
+#### B) Image Contour Detection
+Identifies contours in a grayscale image using a binary threshold and `cv2.findContours()`. Draws these contours on the original image in green.
+- **Input**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/car-1.webp" alt="concat" width="400" style="margin-right: 20">
+
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/contoured_image.jpg" alt="concat" >
+
+  #### D) Image Dilation & Erosion
+Performs morphological operations to enlarge and shrink image features, enhancing and reducing specific areas respectively.
+- **Input**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic.jpeg" alt="concat" >
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/dilated_image.jpg" alt="concat" > <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/eroded_image.jpg" alt="concat" >
+
+  
+#### E) Edge Detection
+Uses the Canny edge detection algorithm to highlight edges within a grayscale image.
+- **Input**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic.jpeg" alt="concat" >
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/Edge_Detected_Image.jpeg" alt="concat" >
+
+#### F) Histogram Equalization
+Improves the contrast of a grayscale image through histogram equalization.
+- **Input**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/car-1.webp" alt="concat" width="400" style="margin-right: 20">
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/Histogram_Equalized_Image.jpeg" alt="concat" >
+
+#### G) HSV Conversion
+Converts a color image from the BGR format to the HSV color space.
+- **Input**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic.jpeg" alt="concat" >
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic_HSV.jpeg" alt="concat" >
+
+#### H) Morphological Transformations
+Applies opening and closing operations on a grayscale image to minimize noise and fill small gaps.
+- **Input**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/car-1.webp" alt="concat" width="400" style="margin-right: 20">
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/car_morph_transformed.jpeg" alt="concat" >
+
+  
+#### J) RGB to Grayscale Conversion
+Transforms a color image to a grayscale representation.
+- **Input**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic.jpeg" alt="concat" >
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic_Grayscale.jpeg" alt="concat" >
+
+
+#### K) Image Rotation
+Rotates an image 90 degrees around its center point.
+- **Input**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic.jpeg" alt="concat" >
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic_Rotated.jpeg" alt="concat" >
+
+#### L) Image Blurring
+Applies a Gaussian blur to an image to reduce noise and soften details.
+- **Input**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic.jpeg" alt="concat" >
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic_Blurred.jpeg" alt="concat" >
+
+#### M) Template
+This function performs template matching to locate a template image within a larger image.
+- **Input**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic.jpeg" alt="concat" >
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/Detected_Faces_Image.jpeg" alt="concat" >
+
+  
+#### N) image_noise_removal & closing_gaps
+Removes noise and closes gaps in an image using morphological operations.
+- **Input**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/car-1.webp" alt="concat" >
+- **Output**:
+  <br>
+   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/car_opening_noise_removal.jpeg" alt="concat" width="400" style="margin-right: 20"> <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/car_closing_fill_gaps.jpeg" alt="concat" width="400" style="margin-right: 20">
+
+
+## Video Processing
+
+### Libraries and Frameworks Utilized
+- **OpenCV**: Version 4.10.0.84 
+
+### Developed Logics:
+
+#### A) Video_processing
+A real-time video capture and processing function.
+
+#### B) Video_fps
+A real-time video capture function that displays a live video feed while calculating and showing the frames per second (FPS) for performance monitoring.
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/Screenshot%202024-11-27%20at%2011.39.17.png" alt="concat" >
+
+#### C) Video_save
+Captures live video from the webcam and writes it to a specified output file, allowing easy recording and saving of video content.
+
+#### D) Video_stack
+Reads two separate video files, resizes them, and combines them side by side for synchronized dual-video playback, ideal for comparing footage.
+- **Output**:
+  <br>
+  <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/collage_output.png" alt="concat" >
+
+#### E) Video_stream
+Captures and streams live video feed from the webcam, displaying it in real-time. Useful for basic video streaming applications.
+- **Output**:
+  <br>
+  <img src="https://github.com/user-attachments/assets/3ef6f39c-c1cd-4671-9cab-0138695de63e" alt="concat" >
+
+## Annotations Project Overview
+
+### Libraries and Frameworks Utilized
+- **OpenCV**: Version 4.10.0.84 for advanced image processing
+- **LabelImg**: Version 1.8.6 for image annotation
+
+### Developed Logics:
+
+#### A) data_segregate
+Organizes images and label files into separate directories for matched and unmatched pairs, aiding in dataset preparation for ML projects.
+- **Input**:
+  <br>
+  <img src="https://github.com/user-attachments/assets/f2b358cf-261e-47de-86d9-e04096c421ac" alt="concat" width="400" style="margin-right: 20">
+- **Output**:
+  <br>
+  <img src="https://github.com/user-attachments/assets/a0b7f7b0-9e0c-447b-a261-ad0642b266fc" alt="concat" width="400" style="margin-right: 20"> <br>
+  <img src="https://github.com/user-attachments/assets/180c5f6b-a40c-46f2-ac49-8ed0a74644da" alt="concat" width="400" style="margin-right: 20">
+
+#### B) label
+Draws bounding boxes on images based on annotation data, useful for visualizing object detection outcomes.
+- **Input**:
+  <br>
+  <img src="https://github.com/user-attachments/assets/d2f07d2e-28c6-432e-b069-450117a8f2c3" alt="concat">
+
+- **Output**:
+  <br>
+  <img src="https://github.com/user-attachments/assets/4142b215-f5b5-4d9f-8f58-a93fc7916526" alt="concat" >
+
+#### C) label_manipulate
+Updates class numbers within label files, enabling easy reclassification in object detection tasks.
+- **Input**:
+  <br>
+  <img src="https://github.com/user-attachments/assets/a7d278a2-0273-4132-bda3-6551733cc2e3" alt="concat" width="400" style="margin-right: 20">
+
+- **Output**:
+  <br>
+  <img src="https://github.com/user-attachments/assets/0fec7f48-512a-493a-aae1-18e033216a87" alt="concat" width="400" style="margin-right: 20">  <br>
+  <img src="https://github.com/user-attachments/assets/bd51289a-aaa8-419c-87f6-728220d6d130" alt="concat" width="400" style="margin-right: 20">
