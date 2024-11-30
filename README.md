@@ -1,5 +1,8 @@
-# Content for README.md
-
+# Dinesh_Datta_AI-Enhanced-Engagement-Tracker-for-Young-Learners_-Infosys_Internship_Oct2024
+## Image Processing
+### Libraries or Frameworks Used
+- **OpenCV**: Version 4.10.0.84
+- **NumPy**: For array manipulation
 # AI Enhanced Engagement Tracker
 
 ## Overview
@@ -114,7 +117,7 @@ Face recognition identifies or verifies individuals by analyzing facial features
 - **Attention Analysis:** Quantifies and logs attention metrics in Excel files.  
 - **Landmark Detection:** Identifies and tracks key facial features.  
 
-
+### Developed Logics:
 #### A) Image Concatenation
 Resizes two images to a specified pixel range and merges them both horizontally and vertically, displaying the results in separate windows.
 - **Input**:
@@ -135,7 +138,7 @@ Identifies contours in a grayscale image using a binary threshold and `cv2.findC
   <br>
   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/contoured_image.jpg" alt="concat" >
 
-  #### D) Image Dilation & Erosion
+  #### C) Image Dilation & Erosion
 Performs morphological operations to enlarge and shrink image features, enhancing and reducing specific areas respectively.
 - **Input**:
   <br>
@@ -145,7 +148,7 @@ Performs morphological operations to enlarge and shrink image features, enhancin
   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/dilated_image.jpg" alt="concat" > <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/eroded_image.jpg" alt="concat" >
 
   
-#### E) Edge Detection
+#### D) Edge Detection
 Uses the Canny edge detection algorithm to highlight edges within a grayscale image.
 - **Input**:
   <br>
@@ -154,7 +157,7 @@ Uses the Canny edge detection algorithm to highlight edges within a grayscale im
   <br>
   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/Edge_Detected_Image.jpeg" alt="concat" >
 
-#### F) Histogram Equalization
+#### E) Histogram Equalization
 Improves the contrast of a grayscale image through histogram equalization.
 - **Input**:
   <br>
@@ -163,7 +166,7 @@ Improves the contrast of a grayscale image through histogram equalization.
   <br>
   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/Histogram_Equalized_Image.jpeg" alt="concat" >
 
-#### G) HSV Conversion
+#### F) HSV Conversion
 Converts a color image from the BGR format to the HSV color space.
 - **Input**:
   <br>
@@ -172,7 +175,7 @@ Converts a color image from the BGR format to the HSV color space.
   <br>
   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic_HSV.jpeg" alt="concat" >
 
-#### H) Morphological Transformations
+#### G) Morphological Transformations
 Applies opening and closing operations on a grayscale image to minimize noise and fill small gaps.
 - **Input**:
   <br>
@@ -182,7 +185,7 @@ Applies opening and closing operations on a grayscale image to minimize noise an
   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/car_morph_transformed.jpeg" alt="concat" >
 
   
-#### J) RGB to Grayscale Conversion
+#### H) RGB to Grayscale Conversion
 Transforms a color image to a grayscale representation.
 - **Input**:
   <br>
@@ -192,7 +195,7 @@ Transforms a color image to a grayscale representation.
   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic_Grayscale.jpeg" alt="concat" >
 
 
-#### K) Image Rotation
+#### I) Image Rotation
 Rotates an image 90 degrees around its center point.
 - **Input**:
   <br>
@@ -201,7 +204,7 @@ Rotates an image 90 degrees around its center point.
   <br>
   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic_Rotated.jpeg" alt="concat" >
 
-#### L) Image Blurring
+#### J) Image Blurring
 Applies a Gaussian blur to an image to reduce noise and soften details.
 - **Input**:
   <br>
@@ -210,7 +213,7 @@ Applies a Gaussian blur to an image to reduce noise and soften details.
   <br>
   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/My_Pic_Blurred.jpeg" alt="concat" >
 
-#### M) Template
+#### K) Template
 This function performs template matching to locate a template image within a larger image.
 - **Input**:
   <br>
@@ -220,7 +223,7 @@ This function performs template matching to locate a template image within a lar
   <img src="https://github.com/kirito2789/AI-Enhanced-Engagement-Tracker-for-Young-Learners_Infosys_Internship_Oct2024/blob/main/Infosys%20Springboard%201/Images/Detected_Faces_Image.jpeg" alt="concat" >
 
   
-#### N) image_noise_removal & closing_gaps
+#### L) image_noise_removal & closing_gaps
 Removes noise and closes gaps in an image using morphological operations.
 - **Input**:
   <br>
