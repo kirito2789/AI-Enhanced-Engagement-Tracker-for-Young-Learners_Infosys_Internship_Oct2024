@@ -299,3 +299,16 @@ Updates class numbers within label files, enabling easy reclassification in obje
   <br>
   <img src="https://github.com/user-attachments/assets/0fec7f48-512a-493a-aae1-18e033216a87" alt="concat" width="400" style="margin-right: 20">  <br>
   <img src="https://github.com/user-attachments/assets/bd51289a-aaa8-419c-87f6-728220d6d130" alt="concat" width="400" style="margin-right: 20">
+
+### Developed Logics:
+
+#### A) Face_recognition
+
+This program utilizes live video streaming to identify "Dinesh Datta" through face recognition and provide instant feedback.
+1. **Loading and Encoding Reference Data**: A stored image of "Dinesh Datta" is processed and encoded into a set of facial features, serving as a reference for real-time comparison. 
+2. **Camera Initialization**:The program accesses the webcam to capture live video frames for face detection and recognition tasks.  
+3. **Face Matching Logic**: Detected faces in the video are encoded, and their similarity to the reference encoding is measured. A match is confirmed if the calculated distance is below the confidence threshold (0.6).  
+4. **Real-Time Annotation**: Matched faces are marked with a green rectangle and labeled "Dinesh," while unmatched faces are displayed with "Not Dinesh" for clarity.  
+5. **Live Feedback Loop**:The program displays the annotated video feed in real time and stops processing when 'q' is pressed.
+   
+- **Input**:
