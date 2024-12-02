@@ -1,7 +1,7 @@
 import cv2
 import os
 
-folder_path = "C:/Users/tejac/OneDrive/Desktop/teja/"
+folder_path = "C:/Users/Dinesh Datta/Desktop/video12/"
 
 
 for filename in os.listdir(folder_path):
