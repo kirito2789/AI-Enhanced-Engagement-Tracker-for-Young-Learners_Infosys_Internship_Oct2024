@@ -17,7 +17,7 @@ if not os.path.exists("screenshots"):
     os.makedirs("screenshots")
 
 # Load the known image of Barack Obama
-known_image = face_recognition.load_image_file("C:\\Users\\Shiva Goud\\Desktop\\INFOSYS SPRING BOARD\\Face_Recognition\\Barak Obama.jpg")
+known_image = face_recognition.load_image_file("C:\\Users\\Dinesh Datta\\Desktop\\INFOSYS SPRING BOARD\\Face_Recognition\\Barak Obama.jpg")
 known_faces = face_recognition.face_encodings(known_image, num_jitters=50, model='large')[0]
 
 # Create a DataFrame to store recognized face information
@@ -25,7 +25,7 @@ columns = ['Name', 'Date', 'Time', 'Screenshot', 'Attentive', 'Attention Score']
 df = pd.DataFrame(columns=columns)
 
 # Launch the live camera or video
-cam = cv.VideoCapture("C:\\Users\\Shiva Goud\\Desktop\\INFOSYS SPRING BOARD\\Face_Recognition\\1000097197.mp4")
+cam = cv.VideoCapture("C:\\Users\\Dinesh Datta\\Desktop\\INFOSYS SPRING BOARD\\Face_Recognition\\1000097197.mp4")
 if not cam.isOpened():
     print("Camera not working")
     exit()
