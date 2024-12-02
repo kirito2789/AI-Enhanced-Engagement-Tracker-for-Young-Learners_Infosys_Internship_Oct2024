@@ -12,7 +12,7 @@ columns = ['Name', 'Date', 'Time']
 df = pd.DataFrame(columns=columns)
 
 # Launch the live camera
-cam = cv.VideoCapture("C:\\Users\\Shiva Goud\\Desktop\\INFOSYS SPRING BOARD\\Face_Recognition\\1000097197.mp4")
+cam = cv.VideoCapture("C:\\Users\\Dinesh Datta\\Desktop\\INFOSYS SPRING BOARD\\Face_Recognition\\1000097197.mp4")
 if not cam.isOpened():
     print("Camera not working")
     exit()
